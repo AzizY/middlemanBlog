@@ -46,7 +46,7 @@
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.0.8, rbenv: 2.3.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="memoist (v0.14.0, rbenv: 2.3.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman (v4.1.10, rbenv: 2.3.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="middleman-bootstrap-navbar (v2.0.0, rbenv: 2.3.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-bootstrap-navbar (v3.0.0, rbenv: 2.3.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-cli (v4.1.10, rbenv: 2.3.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-compass (v4.0.1, rbenv: 2.3.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-core (v4.1.10, rbenv: 2.3.1) [gem]" level="application" />

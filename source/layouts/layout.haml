@@ -13,6 +13,39 @@
 %body{:class => page_classes}
 
 
+%nav.navbar.navbar-default{:role => "navigation"}
+    .container-fluid
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-left
+
+                %li
+                    %a{:href => "#"} Home
+                %li
+                    %a{:href => "#"} Blog
+                %li.dropdown
+                    %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                        Products
+                        %span.caret
+                    %ul.dropdown-menu{:role => "menu"}
+
+            %ul.nav.navbar-nav.navbar
+                = image_tag "logo.jpg", height: '50', width: '100'
+
+            %ul.nav.navbar-nav.navbar-right
+                %li
+                    %a{:href => "#"} Log In
+                %li
+                    %i.fa.fa-shopping-cart{"aria-hidden" => "true"}
+                    %a{:href => "#"} Cart
+
+
+    / /.navbar-collapse
+    / /.container-fluid
+
+
 
 
 = yield
